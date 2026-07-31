@@ -1,0 +1,8 @@
+name: "notes_patch"
+version: "0.1.0"
+transport: "stdio"
+entrypoint:
+  command: "python3"
+  args:
+    - "patches/notes_patch/server.py"
+tools_namespace: "notes"
