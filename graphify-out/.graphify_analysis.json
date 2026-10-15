@@ -1,0 +1,308 @@
+{
+  "communities": {
+    "0": [
+      "src_protocol",
+      "src_protocol_create_directory",
+      "src_protocol_create_directory_schema",
+      "src_protocol_display",
+      "src_protocol_error",
+      "src_protocol_handle_request",
+      "src_protocol_is_empty_object",
+      "src_protocol_json_result",
+      "src_protocol_list_directory",
+      "src_protocol_list_directory_schema",
+      "src_protocol_ollama_config_get",
+      "src_protocol_ollama_config_update",
+      "src_protocol_operation_result",
+      "src_protocol_required_path",
+      "src_protocol_rpc_result",
+      "src_protocol_rs_into",
+      "src_protocol_rs_map",
+      "src_protocol_rs_option",
+      "src_protocol_rs_result",
+      "src_protocol_rs_string",
+      "src_protocol_rs_value",
+      "src_protocol_system_info",
+      "src_protocol_system_info_schema",
+      "src_protocol_tools_call",
+      "src_protocol_tools_list",
+      "src_runtime_agentruntime",
+      "src_runtime_agentruntime_executor"
+    ],
+    "1": [
+      "default",
+      "rwlock",
+      "rwlockreadguard",
+      "rwlockwriteguard",
+      "src_config_config_snapshot",
+      "src_config_ollamaconfig",
+      "src_config_ollamaconfigstore",
+      "src_config_ollamaconfigstore_current",
+      "src_config_ollamaconfigstore_read",
+      "src_config_ollamaconfigstore_snapshot",
+      "src_config_ollamaconfigstore_update",
+      "src_config_ollamaconfigstore_write",
+      "src_runtime_agentruntime_ollama_config"
+    ],
+    "2": [
+      "src_config_apply_update",
+      "src_config_reject_unknown_fields",
+      "src_config_required_string",
+      "src_config_rs_map",
+      "src_config_rs_result",
+      "src_config_rs_string",
+      "src_config_rs_value",
+      "src_config_update_api_key",
+      "src_config_update_auth_mode",
+      "src_config_update_base_url",
+      "src_config_update_model",
+      "src_config_update_timeout"
+    ],
+    "3": [
+      "component",
+      "src_executor_agentexecutor",
+      "src_executor_agentexecutor_create_directory",
+      "src_executor_agentexecutor_list_directory",
+      "src_executor_agentexecutor_require_within_workspace",
+      "src_executor_agentexecutor_resolve_destination",
+      "src_executor_agentexecutor_resolve_existing",
+      "src_executor_append_safe_component",
+      "src_executor_rs_pathbuf",
+      "src_executor_rs_result",
+      "src_executor_validate_relative_path"
+    ],
+    "4": [
+      "src_config_configerror",
+      "src_config_configerror_fmt",
+      "src_config_configerror_from",
+      "src_config_default_config_path",
+      "src_config_require_absolute_config_path",
+      "src_config_resolve_config_path",
+      "src_config_rs_display",
+      "src_config_rs_error",
+      "src_config_rs_formatter",
+      "src_config_rs_from",
+      "src_config_rs_pathbuf"
+    ],
+    "5": [
+      "src_executor_agentexecutor_from_environment",
+      "src_executor_agentexecutor_new",
+      "src_executor_default_workspace_root",
+      "src_executor_executorerror",
+      "src_executor_executorerror_from",
+      "src_executor_require_absolute_path",
+      "src_executor_rs_display",
+      "src_executor_rs_error",
+      "src_executor_rs_from",
+      "src_executor_rs_into",
+      "src_executor_rs_self"
+    ],
+    "6": [
+      "src_lib",
+      "src_runtime",
+      "src_runtime_agentruntime_from_environment",
+      "src_runtime_rs_display",
+      "src_runtime_rs_error",
+      "src_runtime_rs_formatter",
+      "src_runtime_rs_result",
+      "src_runtime_rs_self",
+      "src_runtime_runtimeerror",
+      "src_runtime_runtimeerror_fmt"
+    ],
+    "7": [
+      "box",
+      "src_main",
+      "src_main_main",
+      "src_main_parse_error",
+      "src_main_process_line",
+      "src_main_rs_error",
+      "src_main_rs_result",
+      "src_main_rs_value",
+      "src_main_send"
+    ],
+    "8": [
+      "src_config",
+      "src_config_has_valid_authority",
+      "src_config_invalid",
+      "src_config_is_configured",
+      "src_config_is_loopback_url",
+      "src_config_normalize_base_url",
+      "src_config_ollamaauthmode",
+      "src_config_rs_into",
+      "src_config_validate_config"
+    ],
+    "9": [
+      "src_config_load_config",
+      "src_config_ollamaconfig_default",
+      "src_config_ollamaconfigstore_from_environment",
+      "src_config_persist_config",
+      "src_config_read_api_key_from_environment",
+      "src_config_rs_option",
+      "src_config_rs_path",
+      "src_config_rs_self"
+    ],
+    "10": [
+      "src_executor",
+      "src_executor_entry_name",
+      "src_executor_inspect_existing_ancestor",
+      "src_executor_invalid_path",
+      "src_executor_require_directory",
+      "src_executor_require_safe_ancestors",
+      "src_executor_rs_path",
+      "src_executor_rs_string"
+    ],
+    "11": [
+      "direntry",
+      "src_executor_agentexecutor_system_info",
+      "src_executor_directory_entry",
+      "src_executor_read_directory_entries",
+      "src_executor_rs_value",
+      "vec"
+    ],
+    "12": [
+      "src_executor_executorerror_fmt",
+      "src_executor_rs_formatter"
+    ]
+  },
+  "cohesion": {
+    "0": 0.23076923076923078,
+    "1": 0.2692307692307692,
+    "2": 0.5909090909090909,
+    "3": 0.45454545454545453,
+    "4": 0.2909090909090909,
+    "5": 0.3090909090909091,
+    "6": 0.2222222222222222,
+    "7": 0.4166666666666667,
+    "8": 0.3611111111111111,
+    "9": 0.32142857142857145,
+    "10": 0.5,
+    "11": 0.3333333333333333,
+    "12": 1.0
+  },
+  "gods": [
+    {
+      "id": "src_config_configerror",
+      "label": "ConfigError",
+      "degree": 29
+    },
+    {
+      "id": "src_executor_executorerror",
+      "label": "ExecutorError",
+      "degree": 25
+    },
+    {
+      "id": "src_config_ollamaconfig",
+      "label": "OllamaConfig",
+      "degree": 21
+    },
+    {
+      "id": "src_executor_agentexecutor",
+      "label": "AgentExecutor",
+      "degree": 17
+    },
+    {
+      "id": "src_config_apply_update",
+      "label": "apply_update()",
+      "degree": 13
+    },
+    {
+      "id": "src_config_ollamaconfigstore",
+      "label": "OllamaConfigStore",
+      "degree": 12
+    },
+    {
+      "id": "src_config_invalid",
+      "label": "invalid()",
+      "degree": 12
+    },
+    {
+      "id": "src_protocol_error",
+      "label": "error()",
+      "degree": 12
+    },
+    {
+      "id": "src_runtime_agentruntime",
+      "label": "AgentRuntime",
+      "degree": 11
+    },
+    {
+      "id": "src_config_update_base_url",
+      "label": "update_base_url()",
+      "degree": 10
+    }
+  ],
+  "surprises": [
+    {
+      "source": "process_line()",
+      "target": "handle_request()",
+      "source_files": [
+        "src/main.rs",
+        "src/protocol.rs"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "RuntimeError",
+      "target": "ConfigError",
+      "source_files": [
+        "src/runtime.rs",
+        "src/config.rs"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "AgentRuntime",
+      "target": "OllamaConfigStore",
+      "source_files": [
+        "src/runtime.rs",
+        "src/config.rs"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "operation_result()",
+      "target": "ExecutorError",
+      "source_files": [
+        "src/protocol.rs",
+        "src/executor.rs"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "RuntimeError",
+      "target": "ExecutorError",
+      "source_files": [
+        "src/runtime.rs",
+        "src/executor.rs"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `AgentRuntime` connect `protocol.rs` to `OllamaConfig`, `AgentExecutor`, `RuntimeError`, `process_line`?",
+      "why": "High betweenness centrality (0.300) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `ExecutorError` connect `ExecutorError` to `protocol.rs`, `AgentExecutor`, `RuntimeError`, `executor.rs`, `read_directory_entries`, `.fmt`?",
+      "why": "High betweenness centrality (0.232) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `RuntimeError` connect `RuntimeError` to `ConfigError`, `ExecutorError`?",
+      "why": "High betweenness centrality (0.208) - this node is a cross-community bridge."
+    }
+  ]
+}

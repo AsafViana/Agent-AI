@@ -1,8 +1,11 @@
-name: "notes_patch"
+name: "agent_ai"
 version: "0.1.0"
 transport: "stdio"
 entrypoint:
-  command: "python3"
+  command: "cargo"
   args:
-    - "patches/notes_patch/server.py"
-tools_namespace: "notes"
+    - "run"
+    - "--quiet"
+    - "--bin"
+    - "agent-ai"
+tools_namespace: "agent"

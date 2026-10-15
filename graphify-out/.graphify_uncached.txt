@@ -1,0 +1,3 @@
+C:\Users\asaf.araujo\Desktop\Dev\Projects\AetherCore-patches\patches\Agent-AI\DEVELOPMENT_LOG.md
+C:\Users\asaf.araujo\Desktop\Dev\Projects\AetherCore-patches\patches\Agent-AI\README.md
+C:\Users\asaf.araujo\Desktop\Dev\Projects\AetherCore-patches\patches\Agent-AI\manifest.yaml
